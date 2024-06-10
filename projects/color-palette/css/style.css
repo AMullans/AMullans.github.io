@@ -1,0 +1,32 @@
+#dirty-orange {
+    text-align: center;
+    font-family: monospace;
+}
+
+#style1-box-1 {
+   background-color: #FFDDD4;
+   font-family: monospace;
+   text-align: center;
+   padding: 24px; 
+}
+
+#style1-box-2 {
+    background-color: #F1B1A1;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#style1-box-3 {
+    background-color: #C77763;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
+
+#style1-box-4 {
+    background-color: #9C4934;
+    font-family: monospace;
+    text-align: center;
+    padding: 24px;
+}
