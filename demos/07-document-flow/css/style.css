@@ -1,0 +1,12 @@
+.narrow {
+    width: 200px; 
+    display: inline-block;
+}
+
+.pink {
+    background-color: pink; 
+}
+
+.purple {
+    background-color: purple; 
+}
