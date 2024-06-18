@@ -11,9 +11,7 @@
     width: 700px; 
     border: 3px solid black;
     border-radius: 24px;
-    padding: 24px;
-   
-    
+    padding: 24px;   
 }
 
 #left-side {
@@ -22,18 +20,15 @@
 }
 
 #right-side {
-    width: 34%;
     display: inline-block;
+    width: 34%;
 }
 
 #id-and-expiration div {
     display: inline-block;
 }
 
-#small-pic {
-    display: inline-block;
-}
-
+#small-pic,
 #data-fields {
     display: inline-block;
 }
@@ -42,10 +37,7 @@
     width: 80px;
 }
 
-#data-left {
-    display: inline-block;
-}
-
+#data-left,
 #data-right {
     display: inline-block;
 }
