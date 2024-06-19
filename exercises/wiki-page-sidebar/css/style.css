@@ -58,3 +58,8 @@ body {
 #main-content ol li {
     padding: 4px 0px;
 }
+
+#main-image {
+    border-bottom: 5px solid bisque;
+    padding-left: 20%;
+}
