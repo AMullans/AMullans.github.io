@@ -1,0 +1,88 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "column1 column2 column3";
+}
+
+#header {
+    grid-area: header;
+    border-bottom: 2px solid crimson;
+    margin: 24px;
+}
+
+#header a {
+    text-decoration: none;
+}
+
+#header #me {
+    color: darkgreen;
+}
+
+#header #bay {
+    color: white;
+    background-color: purple;
+    padding: 4px;
+    margin-left: 5px;
+    border-radius: 12px;
+}    
+
+#column1 {
+    grid-area: column1;
+}
+#column1 img {
+    width: 100px;
+    display:flex;
+    flex: wrap;
+    align-content: center;
+    margin: 10px 50px;
+}
+
+#column2 {
+    grid-area: column2;
+}
+
+#column2 img {
+    width: 350px;
+}
+
+
+#column3 {
+    grid-area: column3;
+    text-align: center;
+}
+
+#column3 h3 {
+    border-bottom: 1px solid black;
+    margin: 10px;
+    padding-bottom: 15px;
+    font-family: "Franklin Gothic Medium";
+}
+
+#column3 ul {
+    list-style-type: none;
+    padding: 12px 0px;
+    margin: 0px;
+}
+
+.column3-1 ul a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 12px;  
+}
+
+.column3-1 ul a:hover {
+    background-color: palevioletred;
+    border-radius: 12px;
+}
