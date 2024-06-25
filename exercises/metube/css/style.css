@@ -13,7 +13,6 @@ body {
     grid-template-areas: 
     "header header"
     "sidebar main";
-    background-color: black
 }
 
 .metube-item {
@@ -33,7 +32,7 @@ body {
 
 .metube-item h4 a {
     text-decoration: none;
-    color:whitesmoke;
+    color: black;
     display: block;
 }
 
@@ -44,7 +43,7 @@ body {
 .metube-item .video-details {
     margin: 8px;
     font-size: 14px;
-    color: whitesmoke;
+    color: darkblue;
 }
 
 .metube-item .video-details img {
@@ -55,7 +54,7 @@ body {
 
 .metube-item .video-channel {
     margin-bottom: 4px;
-    color: whitesmoke;
+    color: darkolivegreen;
 }
 
 #header {
@@ -68,7 +67,7 @@ body {
 }
 
 #header #me {
-    color: whitesmoke;
+    color: red;
 }
 
 #header #tube {
@@ -88,7 +87,7 @@ body {
     list-style-type: none;
     padding: 12px 0px;
     margin: 0px;
-    border-bottom: 1px solid #AAAAAA;
+    border-bottom: 1px solid darkslateblue;
 }
 
 #sidebar ul img {
@@ -96,19 +95,19 @@ body {
     width: 35px;
     padding: 4px;
     vertical-align: middle;
-    background-color: whitesmoke;
+    background-color: darkolivegreen;
 }
 
 #sidebar ul a {
     text-decoration: none;
-    color:whitesmoke;
+    color: black;
     display: block;
     padding: 12px;
     display: inline-block;
 }
 
 #sidebar ul a:hover {
-    background-color: #EEEEEE;
+    background-color: lightseagreen;
     border-radius: 12px;
 }
 
