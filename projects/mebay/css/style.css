@@ -73,16 +73,18 @@ body {
     list-style-type: none;
     padding: 12px 0px;
     margin: 0px;
+    
 }
 
 .column3-1 ul a {
     text-decoration: none;
     color: black;
     display: block;
-    padding: 12px;  
+    padding: 12px; 
 }
 
 .column3-1 ul a:hover {
     background-color: palevioletred;
     border-radius: 12px;
+    border-bottom: 1px solid black;
 }
