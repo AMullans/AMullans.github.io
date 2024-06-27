@@ -19,39 +19,79 @@ body {
 
 .card-style-3 {
     display: flex;
-    flex-wrap: wrap;
-    justify-content:space-between;
+    flex-direction: column;
     width: 90vw;
     gap: 25px;
     max-width: 350px;
-    max-height: 590px;
-    margin: 48px auto;
-    border: 15px solid goldenrod;
+    margin: 10px auto;
+    border: 15px solid #DEEDF5;
     border-radius: 15px;
-}
-
-.card-style-3 h2 {
-    font-size: 27px;
-    margin-top: 12px;
-    margin-bottom: 0px;
-    padding-left: 0px;
-    text-align: center;
+    background: radial-gradient(
+        at top right,
+        #EEBBF5,
+        #D0CEF4,
+        #CBEEF4
+    );
+    padding: 10px;
 }
 
 .pokemon-header {
     justify-content: space-between;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.health {
+    margin-top: 26px;
+    font-size: 20px;
+}
+
+.details {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 13px;
+    background-color: #E0F6E1;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px 10px 0px 10px;
+}
+
+.attack {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid black;
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 25px;
+}
+
+.power {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.data {
+    font-size: 12px;
+    text-align: center;
+    border: 2px solid #F4D6D2;
+    margin: 0px 10px 20px 10px;
+    font-weight: bold;
+    padding: 2px;
+}
+
+.description {
+    font-size: 15px;
+}
+
+.description span {
+    font-weight: bold;
 }
 
 
 
-
-
 .card-style-3 img {
-    display: flex;
     width: 100%;
-    border: 0px solid transparent;
-    padding: 10px;
+    border: 5px solid black;
 }
 
