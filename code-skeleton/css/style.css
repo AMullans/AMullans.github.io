@@ -16,6 +16,12 @@ body {
     padding: 24px;
 }
 
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
 #center-column {
     display: flex;
     flex-wrap: wrap;
