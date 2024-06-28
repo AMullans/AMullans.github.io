@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#hero-1 {
+    background-image: url("../images/lonely-ocean.jpg");
+    height: 100vh;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero-1 h1 {
+    font-size: 8vw;
+    margin-bottom: 50vh;
+    margin-right: 6vw;
+}
+
+#hero-1 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+}
+
+#hero-1 a {
+    text-decoration: none;
+    color: black;
+    background-color: aquamarine;
+    padding: 24px;
+    font-size: 1.5vw;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#hero-2 {
+    background-image: url("../images/misty-mountains.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#hero-2 h1 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 45vw;
+}
+
+#hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 30vw 0px 0px;
+}
+
+#hero-2 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #495C4F;
+    color: #D9CAB4;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 25vw 15vh 0px;
+    border-radius: 50%;
+}
+
+#hero-3 {
+    background-image: url("../images/snowy-wasteland.jpg");
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-size: cover;
+    background-position: center center;
+    align-items: flex-start;
+    justify-content: center;  
+}
+
+#hero-3 h1 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    padding: 5vh;
+}
+
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 20vw;
+}
+
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: #818EAC;
+    color: #C9D1D6;
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 50vw;
+    border-radius: 50%;
+}
