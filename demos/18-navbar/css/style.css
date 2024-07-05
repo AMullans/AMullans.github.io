@@ -1,0 +1,114 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background: linear-gradient(
+        to bottom,
+        #66A16C,
+        #174D1D
+    );
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar img {
+    width: 200px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar .cta-button {
+    background-color: white;
+    color:#174D1D;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-size: 20px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+    height: 200vh;
+}
+
+#navbar-bottom {
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(
+        to bottom,
+        #66A16C,
+        #C8F2CC
+    );
+}
+
+#navbar-bottom a {
+    text-decoration: none;
+    color: white;
+    padding: 12px 36px;
+}
+
+#header {
+    position: sticky;
+    top: 0px;
+}
+
+#footer {
+    color: white;
+    padding: 12px;
+    background: linear-gradient(
+        to bottom,
+        #A2C9C5,
+        #66A19B
+    );
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-column-navbar {
+    width: 800px;
+    margin: 0px auto;
+    padding: 48px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer-column-navbar div {
+    display: flex;
+    flex-direction: column;
+}
+
+#footer-column-navbar a {
+    padding: 8px 0px;
+}
