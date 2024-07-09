@@ -509,22 +509,22 @@ body {
     }
 
     #banner-container,
-#card-1,
-#card-2,
-#card-3,
-#aside,
-#main {
-    background-color: transparent;
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: transparent;
 
 }
 
 /**************************************************************
     Banner and Cards Styling
 **************************************************************/
-#banner-container{
-    margin: 0px 0px;
-    padding: 0px;
+    #banner-container{
+        margin: 0px;
+        padding: 0px;
 
-}
+    }
 }
     
