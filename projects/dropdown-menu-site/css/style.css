@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: impact;
+}
+
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    font-family:'Arial Narrow Bold';
+    background: linear-gradient(
+        to bottom,
+        #E0A364,
+        #E18229
+    );
+}
+
+#navbar h1 {
+    font-family: Impact;
+    font-weight: lighter;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+
+#center-column {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    justify-content: center;
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+}
+
+
+
+
+ 
+#hero{
+    background-image: 
+        url("../images/krista-mangulsone-9gz3wfHr65U-unsplash.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#hero h2 {
+    font-size: 50px;
+    margin: 30px;
+    font-weight: lighter;
+}
+
+#hero h3 {
+    font-size: 30px;
+    font-weight: lighter;
+    margin-top: 45px
+}
+
+#hero a {
+    margin-top: 100px;
+    text-decoration: none;
+    background-color: white;
+    border: 2px solid black;
+    color: black;
+    padding: 24px;
+    display: inline-block;
+}
+
+#layout {
+    max-width: 800px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+
+
+
+
+/*TABLET BREAKPOINT*/
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    body {
+        background-color: skyblue;
+    }
+}
+
+/*MOBILE BREAKPOINT*/
+@media screen and (max-width: 480px) {
+    body {
+        background-color: firebrick;
+    }
+
+    #nav {
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
