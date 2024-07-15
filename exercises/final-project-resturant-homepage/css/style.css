@@ -112,6 +112,12 @@ body {
     color: #FFFFFF;
 }
 
+#card-container {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
 .cards {
     display: flex;
     flex-direction: row;
