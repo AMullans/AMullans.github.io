@@ -46,6 +46,7 @@ body {
     align-items: flex-end;
     color: white;
     position: relative;
+    margin-top: 35px;
 }
 
 #hero a {
@@ -183,6 +184,43 @@ body {
     margin-bottom: 0px;
 }
 
+#footer {
+    color: white;
+    padding: 12px;
+    position: relative;
+    background-color: #957BA1;
+    margin-top: 40px;
+}
+
+#footer a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    font-family: "la-parisienne-sans", sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    font-style: normal;
+}
+
+#footer-column-navbar {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 2px solid #351640;
+    padding-bottom: 85px;
+    
+}
+
+#footer-column-navbar div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 25px;
+}
+
+#footer-column-navbar a {
+    padding-bottom: 35px;
+}
+
 /*MENU BREAKPOINT*/
 
 #drinks-container {
@@ -248,20 +286,20 @@ body {
     text-align: center;
     font-size: 45px;
     position: absolute;
-    bottom: 5%;
+    bottom: 1%;
     left: 2%;
     font-family: "la-parisienne-sans", sans-serif;
     font-weight: bold;
     font-style: italic;
-    color: #351640;
+    color: #FFFFFF;
 }
 
 #hero-2 h4 {
     text-align: center;
     font-size: 26px;
     position: absolute;
-    bottom: 70%;
-    left: 50%;
+    bottom: 50%;
+    left: 60%;
     font-family: "la-parisienne-sans", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -279,8 +317,14 @@ body {
 }
 
 .menu-card {
+    align-self: normal;
     flex:350px;
-    border: 3px solid black;
+    border: 3px solid #351640;
+    color: #351640;
+    font-family: "la-parisienne-sans", sans-serif;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: normal;
     margin: 24px;
     padding: 24px;
     border-radius: 12px;
@@ -325,7 +369,7 @@ body {
 #menu-card-5 .card-back,
 #menu-card-6 .card-front,
 #menu-card-6 .card-back {
-    border: 3px solid black;
+    border: 3px solid #351640;
     border-radius: 12px;
     padding: 24px;
 }
@@ -438,8 +482,13 @@ body {
 
 /*TABLET BREAKPOINT*/
 @media screen and (max-width: 768px) and (min-width: 480px) {
-    body {
-        background-color: skyblue;
+    
+    #navbar {
+        flex-direction: column;
+    }
+
+    #logo {
+        margin-left: 100px;
     }
 
     #hero-2 h2 {
@@ -452,20 +501,6 @@ body {
         position: absolute;
         bottom: 70%;
         left: 50%;
-    }
-
-}
-
-/*MOBILE BREAKPOINT*/
-@media screen and (max-width: 480px) {
-    body {
-        background-color: firebrick;
-    }
-
-    #nav {
-        /*flex-wrap: wrap;*/
-        flex-direction: column;
-        align-items: center;
     }
 
 }
