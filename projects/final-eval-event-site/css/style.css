@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#center-single-column {
+    width: 100%;
+    min-width: 500px;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 24px;
+}
+
+#main-content {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+#main-content h2 {
+    display: inline;
+    margin: 25px;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+}
+
+#captions {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+#eagles {
+    margin-right: 100px;
+}
+
+#top-header {
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    margin: 60px;
+}
+
+#mid-header {
+    text-align: center;
+    margin: 20px;
+    border: 2px solid black;
+}
+
+#bottom-header {
+    text-align: center;
+    margin: 80px;
+    border: 2px solid black;
+}
+
+.team-info img {
+    width: 350px;
+}
+
+#bottom-content {
+    display: inline-block;
+    text-align: center;
+    margin: 50px;
+}
+
+#bottom-content p {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+#bottom-content h2 {
+    margin: 50px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-evenly;
+    color: black;
+    text-decoration: none;
+}
+
+.buttons a {
+    text-decoration: none;
+    color: black;
+    border: 2px solid black;
+    padding: 15px;
+    border-radius: 20%;
+    background-color: white;
+}
+
+.buttons a:hover {
+    background-color: black;
+    color: white;
+}
+
+/*TABLET BREAKPOINT*/
+@media screen and (max-width: 768px) and (min-width: 481px) {
+    body {
+        background-color: skyblue;
+    }
+}
+
+/*MOBILE BREAKPOINT*/
+@media screen and (max-width: 480px) {
+    body {
+        background-color: firebrick;
+    }
+
+    #nav {
+        /*flex-wrap: wrap;*/
+        flex-direction: column;
+        align-items: center;
+    }
+
+}
