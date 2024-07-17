@@ -14,6 +14,11 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 24px;
+    background: linear-gradient(
+        -90deg,
+        #9237ED,
+        #77F538
+    );
 }
 
 #main-content {
@@ -44,20 +49,17 @@ body {
 #top-header {
     display: flex;
     justify-content: space-evenly;
-    border: 2px solid black;
     margin: 60px;
 }
 
 #mid-header {
     text-align: center;
     margin: 20px;
-    border: 2px solid black;
 }
 
 #bottom-header {
     text-align: center;
     margin: 80px;
-    border: 2px solid black;
 }
 
 .team-info img {
