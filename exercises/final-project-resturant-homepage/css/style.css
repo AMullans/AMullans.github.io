@@ -50,12 +50,21 @@ body {
 }
 
 #hero a {
+    font-family: "la-parisienne-sans", sans-serif;
+    font-weight: lighter;
+    font-style: italic;
     padding: 15px;
     text-decoration: none;
     color: white;
     position: absolute;
     left: 55%;
-    bottom: 10%; 
+    bottom: 4%;
+    border: 2px solid #957BA1;
+    background-color: #957BA1;
+    border-radius: 50px;
+    transform: translateY(0);
+    transition: 
+        transform 0.5s;
 }
 
 #hero a:hover {
@@ -63,11 +72,14 @@ body {
     background-color: #351640;
     padding: 15px;
     border-radius: 50px;
+    transform: translateY(-4px);
+    transition: 
+        transform 0.5s;
 }
 
 #hero h2 {
     position: absolute;
-    left: 10%;
+    left: 7%;
     bottom: 15%;
     font-size: 45px;
     font-family: "la-parisienne-sans", sans-serif;
@@ -154,7 +166,7 @@ body {
     width: 100%;
     padding: 10px;
     text-align: center;
-    border: 3px solid #957BA1;
+    border-top: 3px solid #957BA1;
     transition:
         background-color .5s,
         color .5s;
@@ -173,15 +185,18 @@ body {
 }
 
 .details h4 {
-    font-size: 16px;
+    font-size: 17px;
     margin-top: 12px;
     margin-bottom: 0px;
 }
 
 .card-header h3 {
-    font-size: 20px;
+    font-size: 30px;
     margin-top: 12px;
     margin-bottom: 0px;
+    font-family: "limon-bold-marker", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 #footer {
@@ -309,17 +324,14 @@ body {
 #menu-cards-container {
     display: flex;
     flex-wrap: wrap;
-    align-items:flex-start;
     gap: 25px;
-    justify-content: center;
     background-color: #957BA1;
     position: relative;
+    align-self: normal;
 }
 
 .menu-card {
-    align-self: normal;
     flex:350px;
-    border: 3px solid #351640;
     color: #351640;
     font-family: "la-parisienne-sans", sans-serif;
     font-weight: 400;
@@ -332,11 +344,17 @@ body {
     background-color: #EAE0F1;
 }
 
+.menu-card h2 {
+    font-family: "limon-bold-marker", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
 .menu-card a {
+    display: block;
     text-decoration: none;
     color: #351640;
     border: 3px solid #957BA1;
-    display: block;
     padding: 10px;
     margin-top: 36px;
 }
@@ -369,8 +387,6 @@ body {
 #menu-card-5 .card-back,
 #menu-card-6 .card-front,
 #menu-card-6 .card-back {
-    border: 3px solid #351640;
-    border-radius: 12px;
     padding: 24px;
 }
 
@@ -488,11 +504,11 @@ body {
     }
 
     #logo {
-        margin-left: 100px;
+        margin-left: 50px;
     }
 
     #hero-2 h2 {
-        bottom: 0%;
+        top: 87%;
         left: 2%;
         color: #FFFFFF;
     }
@@ -503,4 +519,29 @@ body {
         left: 50%;
     }
 
+}
+
+@media screen and (max-width: 481px) {
+
+    #navbar {
+        flex-direction: column;  
+    }
+    
+    #navbar #logo {
+        margin-right: 10px;
+    }
+
+    #drinks-container {
+        padding-right: 20px;
+    }
+
+    #hero-2 h4{
+        position: absolute;
+        bottom: 55%;
+    }
+
+    #hero-2 h2 {
+        position: absolute;
+        top: 87%;
+    }
 }
